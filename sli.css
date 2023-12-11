@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimonial{
+    position: relative;
+    max-width: 900px;
+    width: 100%;
+    padding: 50px 0;
+    /* background-color: white; */
+}
+.testimonial .image{
+    height: 170px;
+    width: 170px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.fcontainer{
+    color: white;
+    width: 100%;
+    height: 88.5vh;
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 20%; */
+    
+    margin-top: 1%;
+}
+.fcontainer button{
+    width: 1;
+    padding: 5px 10px;
+    position: absolute;
+    border: none;
+    outline: none;
+    color: black;
+    border-radius: 15px;
+    background-color:antiquewhite;
+    cursor: pointer;
+}
+.fcontainer button:hover{
+    background-color: rgba(0, 0, 0, 0.453);
+    border: 0;
+}
+
+.testimonial .slide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 30px;
+
+}
+
+.slide p{ 
+    padding: 0 100px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+}
+
+.slide .quote-icon{
+    font-size: 30px;
+    color: olivedrab;
+}
+
+.slide .details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.details .name{
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+}
+
+.details .job{
+    font-size: 12px;
+    font-weight: 400;
+    color: #333;
+}
+.testimonial{
+    text-align: center;
+    color: aliceblue;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto ;
+    padding: 30px;
+    border-right: 1px solid black;
+}
+.testimonial img{
+    width: 30%;
+    height: 50%;
+    border-radius:50%;
+}
+#prev{
+    right:17%;
+}
+#next{
+    left:17%;
+}
+h1{
+    text-align: center;
+    margin-left: 20%;
+    margin-top: 2%;
+    font-family: cursive;
+}
+
+a{
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    border: 2px solid transparent;
+}
+.nav a:hover{
+    color: orange;
+    border-top-color: orange;
+    border-bottom-color: orange;
+    transition: 0.3s;
+}
+.navbar{
+    /* background-color: black; */
+    height: 60px;
+}
+.nav{
+    float: right;
+    padding-right: 5%;
+    font-size: 20px;
+    /* margin-top: 2%; */
+}
